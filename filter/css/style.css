@@ -1,0 +1,45 @@
+/* 
+#addContact {
+    float: right;
+    font-size: 2.5rem;
+}
+
+.addContactText:hover, #addContact:hover {
+    color: #26a69a;
+    cursor: pointer;
+}
+*/
+
+.addContactText {
+    line-height: 40px;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+#addContactModal {
+    position: fixed;
+    /*height: 0;*/
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.closeModal {
+    height: 0;
+}
+
+.openModal {
+    height: 100%;
+}
+
+.addContactForm {
+    margin-top: 7rem;
+}
+
+.addContactForm-button {
+    margin-top: 2rem;
+}
