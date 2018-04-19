@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TO-DO list</title>
+</head>
+<body>
+        <div class="uk-flex uk-flex-center tasks-container">
+            <div class="uk-card uk-card-default uk-card-body">
+                    <form id="task-form">
+                        <fieldset class="uk-fieldset">
+                            <legend class="uk-legend">Task list</legend>
+                            <div class="uk-margin">
+                                <input name="task" id="task" class="uk-input" type="text" placeholder="New task">
+                                <input type="submit" value="Add task" class="uk-button uk-button-primary custom-btn" />
+                            </div>
+                        </fieldset>
+                    </form>
+                    <hr>
+                    <legend class="uk-legend">Tasks</legend>
+                    <ul class="uk-list uk-list-divider collection">
+                    </ul> 
+                    <input name="filter" id="filter" class="uk-input" type="text" placeholder="Filter tasks">
+                    <button class="uk-button uk-button-secondary custom-btn clear-tasks">Clear task</button>
+            </div>
+        </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
